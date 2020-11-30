@@ -12,7 +12,7 @@ function generateEvolveButton(x, y, w, h, modeNumber) {
         }
 
         if (creature.joints.length === 0) {
-            warning = new Warning("The whole point this entire thing if for the AI to control the creature \n you are going to need some joints for the creature to be able to move", 500);
+            warning = new Warning("The whole point this entire thing is for the AI to control the creature \n you are going to need some joints for the creature to be able to move", 500);
             this.deactivate();
             return;
         }
