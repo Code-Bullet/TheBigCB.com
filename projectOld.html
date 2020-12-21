@@ -97,9 +97,9 @@
     <script>
         /* When the user clicks on the button,
         toggle between hiding and showing the dropdown content */
+        let hamburgerClicked = false;
 
         function setupElements() {
-            let hamburgerClicked = false;
             var element = select('button');
             element.touchStarted(clickedHamburger);
             element = select("body");
